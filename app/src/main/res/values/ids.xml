@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="previous" type="id" />
+    <item name="next" type="id" />
+    <item name="random" type="id" />
+</resources>
