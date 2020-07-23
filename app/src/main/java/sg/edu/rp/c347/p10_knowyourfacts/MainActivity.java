@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 Calendar calendar = Calendar.getInstance();
                 calendar.add(Calendar.MINUTE, 5);
 
-                Intent intent = new Intent(MainActivity.this, NotificationManager.class);
+                Intent intent = new Intent(MainActivity.this, NotificationReceiver.class);
 
                 PendingIntent pIntent = PendingIntent.getBroadcast(MainActivity.this, 12345, intent, PendingIntent.FLAG_CANCEL_CURRENT);
 
